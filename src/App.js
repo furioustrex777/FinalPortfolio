@@ -64,7 +64,7 @@ function App() {
       <div className="Header">
         <div className="Name">
           <div>
-            <a href="FinalPortfolio/">
+            <a href="/">
               <h1 className="siteTitle">The Final Portfolio</h1>
             </a>
           </div>
@@ -81,16 +81,14 @@ function App() {
                 id="home"
                 className="menu-item"
                 // href="/"
-                onClick={(event) => routeChange(event, "FinalPortfolio/")}
+                onClick={(event) => routeChange(event, "")}
               >
                 Home
               </a>
               <a
                 id="about"
                 className="menu-item"
-                onClick={(event) =>
-                  routeChange(event, "FinalPortfolio/#/about")
-                }
+                onClick={(event) => routeChange(event, "about")}
                 // href="/about"
               >
                 About
@@ -99,9 +97,7 @@ function App() {
                 id="Personas"
                 className="menu-item"
                 // href="/Personas"
-                onClick={(event) =>
-                  routeChange(event, "FinalPortfolio/#/Personas")
-                }
+                onClick={(event) => routeChange(event, "Personas")}
               >
                 Personas
               </a>
@@ -109,9 +105,7 @@ function App() {
                 id="Redesign"
                 className="menu-item"
                 // href="/Redesign"
-                onClick={(event) =>
-                  routeChange(event, "FinalPortfolio/#/Redesign")
-                }
+                onClick={(event) => routeChange(event, "Redesign")}
               >
                 Redesign
               </a>
@@ -119,9 +113,7 @@ function App() {
                 id="Iterative"
                 className="menu-item"
                 // href="/Iterative"
-                onClick={(event) =>
-                  routeChange(event, "/FinalPortfolio/#/Iterative")
-                }
+                onClick={(event) => routeChange(event, "Iterative")}
               >
                 Iterative
               </a>
@@ -129,9 +121,7 @@ function App() {
                 id="Develop"
                 className="menu-item"
                 // href="/Develop"
-                onClick={(event) =>
-                  routeChange(event, "/FinalPortfolio/#/Develop")
-                }
+                onClick={(event) => routeChange(event, "Develop")}
               >
                 Develop
               </a>
