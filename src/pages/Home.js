@@ -9,10 +9,8 @@ const Home = () => {
   let navigate = useNavigate();
   function routeChange(event, pageName) {
     let path = pageName.pageName;
-    // console.log(pageName);
     navigate(path);
     window.scrollTo({ top: 0 });
-    // window.location.reload(true);
   }
   //   $("#divWithPadding > div").click(function (e) {
   //     e.stopPropagation();
