@@ -57,7 +57,10 @@ const Home = () => {
             developer.
             <br></br>
             <br></br>
-            <a href="/about" style={{ fontSize: "27px", margin: "0" }}>
+            <a
+              href="/FinalPortfolio/#/about"
+              style={{ fontSize: "27px", margin: "0" }}
+            >
               {" "}
               More about me
             </a>
