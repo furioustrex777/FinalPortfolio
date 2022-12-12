@@ -14,7 +14,6 @@ import Develop from "./pages/Develop";
 import Iterative from "./pages/Iterative";
 import { slide as Menu } from "react-burger-menu";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 // esther_odonnell@brown.edu
 // victoria_macridis@brown.edu
@@ -53,12 +52,6 @@ function App() {
     event.preventDefault();
   }
 
-  let navigate = useNavigate();
-  function routeChange(event, pageName) {
-    let path = pageName;
-    navigate(path);
-    window.scrollTo({ top: 0 });
-  }
   return (
     <div className="App">
       <div className="Header">
@@ -77,52 +70,22 @@ function App() {
           {element}
           <div>
             <Menu right={true} isOpen={false}>
-              <a
-                id="home"
-                className="menu-item"
-                // href="/"
-                onClick={(event) => routeChange(event, "")}
-              >
+              <a id="home" className="menu-item" href="/">
                 Home
               </a>
-              <a
-                id="about"
-                className="menu-item"
-                onClick={(event) => routeChange(event, "about")}
-                // href="/about"
-              >
+              <a id="about" className="menu-item" href="/about">
                 About
               </a>
-              <a
-                id="Personas"
-                className="menu-item"
-                // href="/Personas"
-                onClick={(event) => routeChange(event, "Personas")}
-              >
+              <a id="Personas" className="menu-item" href="/Personas">
                 Personas
               </a>
-              <a
-                id="Redesign"
-                className="menu-item"
-                // href="/Redesign"
-                onClick={(event) => routeChange(event, "Redesign")}
-              >
+              <a id="Redesign" className="menu-item" href="/Redesign">
                 Redesign
               </a>
-              <a
-                id="Iterative"
-                className="menu-item"
-                // href="/Iterative"
-                onClick={(event) => routeChange(event, "Iterative")}
-              >
+              <a id="Iterative" className="menu-item" href="/Iterative">
                 Iterative
               </a>
-              <a
-                id="Develop"
-                className="menu-item"
-                // href="/Develop"
-                onClick={(event) => routeChange(event, "Develop")}
-              >
+              <a id="Develop" className="menu-item" href="/Develop">
                 Develop
               </a>
             </Menu>
