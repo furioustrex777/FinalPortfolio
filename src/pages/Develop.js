@@ -4,17 +4,20 @@ import "./Personas.css";
 const Develop = () => {
   // process.env.PUBLIC_URL + "/" + 'images/Projectior_Sketch.jpg
   let develop = process.env.PUBLIC_URL + "/" + "images/bakery.png";
-  let designguide1 = process.env.PUBLIC_URL + "/" + "images/designguide1.png";
-  let lofiphone = process.env.PUBLIC_URL + "/" + "images/lofiphone.png";
-  let hifiphone = process.env.PUBLIC_URL + "/" + "images/hifiphone.png";
-  let lofitab = process.env.PUBLIC_URL + "/" + "images/lofitab.png";
-  let hificomp = process.env.PUBLIC_URL + "/" + "images/hificomp.png";
-  let loficomp = process.env.PUBLIC_URL + "/" + "images/loficomp.png";
-  let hifitab = process.env.PUBLIC_URL + "/" + "images/hifitab.png";
-  let redesigned = process.env.PUBLIC_URL + "/" + "images/redesigned.png";
 
+  let up = process.env.PUBLIC_URL + "/" + "images/up.png";
+
+  function handleTop() {
+    window.scrollTo({ top: 0 });
+  }
   return (
     <div id="cs1300-gallery">
+      <img
+        class="top-button"
+        src={up}
+        alt="back to top"
+        onClick={handleTop}
+      ></img>
       <section>
         <div>
           <h1>Development</h1>
