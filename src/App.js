@@ -25,6 +25,7 @@ bakeryData.forEach((item) => {
 function App() {
   const [options, setOptions] = useState(bakeryData);
   let element;
+  console.log(window.location.pathname);
   if (window.location.pathname === "/FinalPortfolio/") {
     element = (
       <TypeAnimation
@@ -43,7 +44,7 @@ function App() {
         speed={50} // Custom Speed from 1-99 - Default Speed: 40
         style={{ fontSize: "2em" }}
         wrapper="span" // Animation will be rendered as a <span>
-        repeat={Infinity} // Repeat this Animation Sequence infinitely
+        repeat={4} // Repeat this Animation Sequence infinitely
       />
     );
   }

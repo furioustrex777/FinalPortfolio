@@ -2,7 +2,6 @@ import React from "react";
 import "./Personas.css";
 
 const Develop = () => {
-  // process.env.PUBLIC_URL + "/" + 'images/Projectior_Sketch.jpg
   let develop = process.env.PUBLIC_URL + "/" + "images/bakery.png";
 
   let up = process.env.PUBLIC_URL + "/" + "images/up.png";
@@ -23,10 +22,6 @@ const Develop = () => {
       <section>
         <div>
           <h1>Development</h1>
-          {/* <h2>
-            Website: <br></br> Thai Food Connection Ordering Screen
-          </h2> */}
-
           <p>
             In constrast to HTML, which is great for developing static webpages,
             as we have been previously. However, with React, we are able to
@@ -51,11 +46,6 @@ const Develop = () => {
               Click here to visit the deployed page
             </a>
           </div>
-
-          {/* <p>
-            This is Thai Food Connection's website that displays their menu
-            items and allows people to order food online.
-          </p> */}
         </div>
       </section>
 
@@ -132,9 +122,6 @@ const Develop = () => {
           great value to users, saving time and effort looking for this
           information on their own.
         </p>
-        {/* <br></br>
-        <br></br> */}
-
         <h3>How I Developed the Application</h3>
         <ul>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
@@ -194,7 +181,6 @@ const Develop = () => {
           needed if you are looking at your favorites or not.
         </p> */}
         <h3>Designing the Application</h3>
-        {/* <p> */}
         <ul>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
             I placed the filtering and sorting options on the left, creating a
@@ -238,7 +224,7 @@ const Develop = () => {
       </section>
       <section>
         <div>
-          <h1>Conculusions and Thoughts</h1>
+          <h1>Conclusion and Thoughts</h1>
           <p>
             Working with react, we got to implement our coding knowledge,
             creating functions to provide functionality to the buttons on the

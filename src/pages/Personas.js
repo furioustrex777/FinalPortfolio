@@ -1,5 +1,6 @@
 import React from "react";
 import "./Personas.css";
+import { useNavigate, Link } from "react-router-dom";
 
 const Personas = () => {
   let image = process.env.PUBLIC_URL + "/" + "images/Projectior_Sketch.jpg";
@@ -12,10 +13,16 @@ const Personas = () => {
   let video = process.env.PUBLIC_URL + "/" + "videos/video1.mp4";
 
   function handleTop() {
-    window.scrollTo({ top: 0 });
+    window.scroll({ top: 0, left: 0, behavior: "auto" });
   }
-  window.scrollTo({ top: 0 });
+  window.scroll({ top: 0, left: 0, behavior: "smooth" });
 
+  // function refreshPage() {
+  //   setTimeout(() => {
+  //     window.location.reload(false);
+  //   }, 500);
+  //   console.log("page to reload");
+  // }
   return (
     <div id="cs1300-gallery">
       <img
@@ -288,35 +295,26 @@ const Personas = () => {
       </section>
       <section>
         <div>
-          <h1>Conculusions and Thoughts</h1>
+          <h1>Conclusion and Thoughts</h1>
           <p>
-            Overall, this was a knowledgable experience. I learned the
-            foundations of learnability, usability, and memorability. It was
-            interesting to think of physical object such as this projection
-            console and things like microwaves as interfaces, similar to that of
-            a webpage. I deepened my knowledge of the frustration that can come
-            across with a bad user interface that results in a bad user
-            experience. This project had helped me to understand potential
-            downfalls that an interface can have, knowledge I can utilize for
-            later projects. Overall, this classic user experience task was
-            helpfull in kick-starting my abilities as a webpage developer.
-            {/* In
-            conclusion, 
-            I found that despite users finding the boba self
-            checkout kiosk to be convenient and quick, users were not too likely
-            to choose to use it unless lines were really long. I also found that
-            most users customize their orders, and were frustrated by the kiosk
-            because of this. Finally, I found that while users have set
-            preferences that they adhere to, many users like to try different
-            drinks. */}
+            Overall, this was a worthwhile experience. I learned the foundations
+            of learnability, usability, and memorability. It was interesting to
+            think of physical object such as this projection console and things
+            like microwaves as interfaces, similar to that of a webpage. I
+            deepened my knowledge of the frustration that can come across with a
+            bad user interface that results in a bad user experience. This
+            project had helped me to understand potential downfalls that an
+            interface can have, knowledge I can utilize for later projects.
+            Overall, this classic user experience task was helpfull in
+            kick-starting my abilities as a webpage developer.
           </p>
         </div>
       </section>
       <section>
         <div className="bottumnav">
-          <a href="/FinalPortfolio/#/Develop" style={{ right: "0px" }}>
+          <Link to="/Develop" style={{ right: "0px" }}>
             &lt;- Development
-          </a>
+          </Link>
           <a href="/FinalPortfolio/#/Redesign" style={{ left: "10px" }}>
             Responsive Redesign -&gt;
           </a>

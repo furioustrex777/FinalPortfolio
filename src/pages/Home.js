@@ -1,9 +1,7 @@
 import React from "react";
 import Slider from "react-animated-slider";
 import bakeryData from "./../assets/bakery-data.json";
-import Personas from "./Personas";
 import { useNavigate } from "react-router-dom";
-import { margin } from "@mui/system";
 
 const Home = () => {
   let navigate = useNavigate();
@@ -12,13 +10,6 @@ const Home = () => {
     navigate(path);
     window.scrollTo({ top: 0 });
   }
-  //   $("#divWithPadding > div").click(function (e) {
-  //     e.stopPropagation();
-  //   });
-  //   $("#divWithPadding").click(function () {
-  //     document.getElementsByClassName("nextButton").click();
-  //     // nextButton.click()
-  //   });
 
   return (
     <div>
@@ -61,7 +52,6 @@ const Home = () => {
               href="/FinalPortfolio/#/about"
               style={{ fontSize: "27px", margin: "0" }}
             >
-              {" "}
               More about me
             </a>
             . Here are the four projects in this portfolio:

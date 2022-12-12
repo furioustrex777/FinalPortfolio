@@ -41,8 +41,6 @@ const Iterative = () => {
   window.scrollTo({ top: 0 });
 
   return (
-    // <div>
-
     <div id="cs1300-gallery2">
       <img
         class="top-button"
@@ -84,14 +82,10 @@ const Iterative = () => {
             the return.
           </p>
         </div>
-        {/* <br></br> */}
         <h3>
           What type of users are impacted by our interface and why would they be
           impacted?
         </h3>
-        {/* <br></br>
-        <br></br> */}
-
         <div>
           <p>
             Our interface mainly impacts small to medium sized businesses that
@@ -431,7 +425,7 @@ const Iterative = () => {
       </section>
       <section>
         <div>
-          <h1>Conculusions and Thoughts</h1>
+          <h1>Conclusion and Thoughts</h1>
           <p>
             In conclusion, through the iterative design process, we learned alot
             about the importance of feedback. In order to accomplish our goal of

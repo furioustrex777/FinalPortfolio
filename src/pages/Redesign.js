@@ -152,7 +152,7 @@ const Redesign = () => {
           results as I was not surprised there were a lot of missing alternative
           text and empty form labels. Additionally, the service pointed out
           useless buttons and redundacies that I had initally seen in the
-          problems section above, leading the conculusions I made about
+          problems section above, leading the conclusionss I made about
           usability and memorability being lacking.
         </p>
       </section>
@@ -336,7 +336,7 @@ const Redesign = () => {
       </section>
       <section>
         <div>
-          <h1>Conculusions and Thoughts</h1>
+          <h1>Conclusion and Thoughts</h1>
           <p>
             Overall, this project developed my HTML and CSS skills. I discovered
             and played around with things such as flex-box and hover aspects of

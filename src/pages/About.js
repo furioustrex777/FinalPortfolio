@@ -13,10 +13,7 @@ const About = () => {
         <h1 style={{ fontSize: "60px", color: "#49565B", marginTop: "0" }}>
           Hi there, I'm _____!
         </h1>
-        <p
-          // className="popuptext"
-          style={{ fontSize: "27px", color: "#667479", margin: "0" }}
-        >
+        <p style={{ fontSize: "27px", color: "#667479", margin: "0" }}>
           This is my final Portfolio, the culmination of all of my projects in
           Brown CSCI1300: User Interface and User Experience. This page shows
           the developlemnt of my front-end skills. From utilizing hierarchy, to
@@ -25,10 +22,7 @@ const About = () => {
           and learn something along the way!
         </p>
         <br></br>
-        <p
-          // className="popuptext"
-          style={{ fontSize: "27px", color: "#667479", margin: "0" }}
-        >
+        <p style={{ fontSize: "27px", color: "#667479", margin: "0" }}>
           I am a current Senior at Brown University graduating in the spring of
           2023. I am concentrating in Economics and Computer Science. I had
           previously interned at a company with a user interface and user

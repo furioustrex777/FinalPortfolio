@@ -1,8 +1,5 @@
 :root {
-  /* --primary-color: rgb(220, 251, 254); */
-  /* --primary-color: rgb(185, 185, 235); */
   --primary-color: rgb(215 215 251);
-  /* --secondary-color: #faeac0; */
   --secondary-color: rgba(121, 72, 72, 0.182);
 }
 html {
@@ -17,7 +14,6 @@ html {
   justify-content: center;
   /* text-align: center; */
   gap: 10px;
-  /* padding-bottom: 5%; */
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -26,52 +22,11 @@ h2 {
   font-size: 40px;
   color: rgb(73, 86, 91);
   margin-top: 0;
-  /* style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }} */
 }
-
-/* h1 {
-  font-size: 5rem;
-  color: cornflowerblue;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
-  line-height: 1.5;
-  font-weight: 300;
-}
-h2
-h2 {
-  font-size: 3rem;
-  color: cornflowerblue;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
-  line-height: 1.5;
-  font-weight: 300;
-  padding: 2rem 2rem 2rem 2rem;
-}
-
-p {
-  font-size: 2rem;
-  color: darkblue;
-  text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
-  line-height: 1.3;
-  font-weight: 300;
-  margin: 8rem;
-} */
 
 ul,
 ol {
-  /* font-size: 2rem; */
-  /* color: darkblue; */
   text-align: left;
-  /* font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif; */
   line-height: 1.3;
   font-weight: 300;
   margin: 2rem;
