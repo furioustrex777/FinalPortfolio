@@ -38,13 +38,35 @@ const Redesign = () => {
             Overview
           </h2>
           <p>
-            In this project, I redesign a resturants food ordering page,
-            improving its usability and memorability. I created low fidelity
-            wireframes after analying the inital webpage and where it could be
-            improved. I then finalized the design with high fidelity prototypes.
-            Then I developed the webpages using HTML and CSS with responsive
-            elements such that it was consistant accross all screen sizes.
+            In this project, I redesigned a resturants food ordering page,
+            aiming to improve its usability and memorability. I created low
+            fidelity wireframes after analying the inital webpage and
+            discovering where it could be improved. Then, I finalized the design
+            with high fidelity prototypes and with that as guidance, I developed
+            the webpages using HTML and CSS with responsive elements such that
+            it was consistant accross all screen sizes.
           </p>
+          <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
+            Key Skills Obtained:
+          </h2>
+          <ul>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              HTML and CSS skills with design process
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Using Learnability, Usability, and Memorability concepts
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Flexbox and responsiveness
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              How to make webpages more accessible
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div>
           <h2>Website: Thai Food Connection</h2>
 
           <p>
@@ -52,25 +74,32 @@ const Redesign = () => {
             developed by those who want to share their ideas or want to provide
             a service. However, there are websites that have been neglected or
             not updated after a while. This page will explore and redesign the
-            website below. I choose this website, because when I first saw this
-            page, I did not like it nor find it memorable, and thought it was
-            not up to par with the other ordering pages that I had seen before.
+            website below.
+            <br></br>
+            <br></br>
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Why this webpage?
+            </h3>
+            I choose this website, because when I first saw this page, I did not
+            like it nor find it memorable, and thought it was not up to par with
+            the other ordering pages that I had seen before. This is Thai Food
+            Connection's original website below that displays their menu items
+            and allows people to order food online.
           </p>
           <br></br>
           <div id="ogwebsite">
             <img class="ogwebsite" src={ThaiOriginal}></img>
           </div>
-          <div style={{ textAlign: "center" }}>
+          <div style={{ textAlign: "center", marginTop: "2rem" }}>
             <a href="https://thaifoodconnectionnh.smiledining.com//?2022082301">
               {" "}
-              Click here to visit page
+              Click here to visit the orginal page
             </a>
           </div>
 
-          <p>
-            This is Thai Food Connection's original website that displays their
-            menu items and allows people to order food online.
-          </p>
+          {/* <p>
+            
+          </p> */}
         </div>
       </section>
 
@@ -147,6 +176,7 @@ const Redesign = () => {
           Running this website through the Waive service resulted in 184 errors
           and 157 alerts.
           <br></br>
+          <br></br>
           Most of these issues were related to accessibility, such as
           alternative text, as well as some functional issues. I agreed with the
           results as I was not surprised there were a lot of missing alternative
@@ -158,16 +188,19 @@ const Redesign = () => {
       </section>
 
       <section>
-        <h2>Style Guide:</h2>
+        <h2>Style Guide</h2>
         <div id="ogwebsite">
           <img class="ogwebsite" src={designguide1}></img>
         </div>
         <p>
+          <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+            Uses
+          </h3>
           By creating a style guide we can establish the main colors,
           typography, and components in different states. This allows us to
           ensure that the interactions are consistent throughout our redesign in
           order to keep the user's experience coherent, in addition to allowing
-          us exploration with colors and design choices.
+          us time to explore desing with different colors and choices.
           {/* <br></br>
           <br></br>I choose a similar color scheme to the existing one, and I
           choose a more rounded style for the components rather than the
@@ -177,7 +210,7 @@ const Redesign = () => {
       </section>
 
       <section>
-        <h2>Low and High Fidelity Prototyping:</h2>
+        <h2>Low and High Fidelity Prototyping</h2>
         {/* <p>
           Because we want the page to be responsive, meaning the page would
           resize or relayout depending on the dimensions of the interface, I
@@ -315,14 +348,16 @@ const Redesign = () => {
       </section>
       {/* <section>{display()}</section> */}
       <section>
-        <h2>Redesigned Website:</h2>
+        <h2>Redesigned Website</h2>
         <div className="centering">
           <div id="ogwebsite">
             <img class="ogwebsite" src={redesigned}></img>
           </div>
-          <a href="https://furioustrex777.github.io/Redesign/">
-            Click here to visit page
-          </a>
+          <div style={{ marginTop: "2rem" }}>
+            <a href="https://furioustrex777.github.io/Redesign/">
+              Click here to visit page
+            </a>
+          </div>
           {/* <p>
             This is the redesigned page of the original website at the top of
             this page. It is responsive such that it fits and designed
@@ -338,14 +373,15 @@ const Redesign = () => {
         <div>
           <h1>Conclusion and Thoughts</h1>
           <p>
-            Overall, this project developed my HTML and CSS skills. I discovered
-            and played around with things such as flex-box and hover aspects of
-            CSS. Throughout the development, I got to experience a lot of
-            stuggle and success, but it was a fruitful experience in which made
-            me more confident in my ability to make webpages. I received valid
-            feedback and saw how there are always exisited differing options but
-            if the goal was there, it was okay. I wanted to emphasize usuablity
-            and memorability, and I believe I accomplished just that.
+            This project helped to develop my HTML and CSS skills greatly. I
+            discovered and experimented with things such as flex-box and hover
+            aspects of CSS. Throughout the development process, I got to
+            experience a lot of stuggle and success, but it was an experience
+            that made me more confident in my ability to develop and design
+            webpages. I received valid feedback and learned how there will
+            always exisits differing opinions but if the goal was there, it was
+            okay. I wanted to emphasize usuablity and memorability, and I
+            believe I accomplished just that.
           </p>
         </div>
       </section>

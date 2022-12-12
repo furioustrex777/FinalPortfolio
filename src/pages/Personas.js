@@ -40,17 +40,39 @@ const Personas = () => {
             Overview
           </h2>
           <p>
-            This website's goal is to analyze different user's usage of the
-            projection console and their overall experience using this
-            interface. Additionally, I conducted interviews to better understand
-            these users and the context surronding their actions. Then, using an
-            empathy map, I created users personas to inform a storyboard of the
-            users experience
+            This website's goal is to analyze different user's interactions with
+            the projection console and their overall experience using this
+            interface. Furthermore, after making initally observations, I
+            conducted interviews to better understand these users and the
+            context surronding their actions. After some analysis, I created and
+            utilized an empathy map, or users personas, to inform a storyboard
+            of a typical users experience
           </p>
+          <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
+            Key Skills Obtained:
+          </h2>
+          <ul>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Design thinking skills and analysis of
+              usability/learnability/memorability
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Obtaining qualitative questions without leading
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Observations and consolidating key information
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Empathy map and storyboard creation
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div id="2">
           <h2 style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }}>
             Interface: Projection Console
           </h2>
-
           {/* <video width="750" height="500" controls>
             <source src={video} type="video/mp4" muted={true} />
           </video> */}
@@ -70,6 +92,13 @@ const Personas = () => {
             shades, into one interface.
             <br></br>
             <br></br>
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Why this interface?
+            </h3>
+            I chose this interface because I had always seen Professors,
+            Teaching Assistants, and even friends struggle with this interface
+            despite its goal of making the process easier and I wanted to learn
+            why.
           </p>
         </div>
       </section>
@@ -83,6 +112,7 @@ const Personas = () => {
             src={image}
             alt="annotated sketch of projector"
           ></img>
+
           <p
             style={{
               fontSize: "27px",
@@ -91,6 +121,9 @@ const Personas = () => {
               textAlign: "left",
             }}
           >
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Interface Design Intentions
+            </h3>
             This is an touch screen interface that controls the projector,
             lights, shades, audio, and screen all in one location. It is used by
             many to project their screens, to show presentations, videos, and
@@ -99,6 +132,9 @@ const Personas = () => {
             provide a faster and easier experience.
             <br></br>
             <br></br>
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Layout Design
+            </h3>
             The inital page is for fast and easy operations, with common fuction
             in the utility bar to the right of the screen.
             <br></br>
@@ -113,10 +149,13 @@ const Personas = () => {
         </h2>
         <div>
           <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
-            Preface: I observed different users who used the projection console
-            throughout Brown University buildings. We were able to observe
-            professors, teaching assistants, and students to provide a sample
-            that represented different ages, jobs, nationalities and
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Preface
+            </h3>
+            I choose to observe different users who used the projection console
+            throughout Brown University classrooms. I was able to observe
+            professors, teaching assistants, and students to provide a quality
+            sample that represented different ages, jobs, nationalities and
             socioeconomic demographics since Brown's population is diverse.
             <ul>
               <li style={{ padding: "0" }}>
@@ -146,7 +185,7 @@ const Personas = () => {
       </section>
       <section>
         <h2 style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }}>
-          Interview Questions and Responses:
+          Interview Questions and Summarized Responses:
         </h2>
         <div>
           <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
@@ -210,11 +249,15 @@ const Personas = () => {
                 </li>
               </ul>
             </ol>
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Analysis
+            </h3>
             As we can see from the responses above, despite the goal of the
             projection console to consolidate the steps of creating a streamline
             user experience, due to the lack of instruction, it was a
             frustrating experience overall for first time users. This leads to
-            an initally negative memorable experience.
+            an initally negative memorable experience and was inline with my
+            inital observations.
           </p>
         </div>
       </section>
@@ -222,10 +265,10 @@ const Personas = () => {
         <h2 style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }}>
           Empathy Maps:
         </h2>
-        <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
+        {/* <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
           Based on our observations and interviews, I created two personas that
           would use this projection console.
-        </p>
+        </p> */}
         <div className="centering">
           <img
             class="empathymaps"
@@ -246,13 +289,16 @@ const Personas = () => {
               textAlign: "left",
             }}
           >
-            My personas were based on the main audience of the projection
-            console, those who need to present something, such as a teaching
-            assistant, student leaders, or professors, and students who are
-            using this inferface for entertainment purposes. I wanted to convey
-            the feeling of frustration from the responses above when something
-            did not go as expected, and how impactful it can be if a schedule
-            was meant to be followed.
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              Creation Process
+            </h3>
+            Based on my observations and interviews, my personas represented the
+            main users of a projection console, those who need to present
+            something, such as a teaching assistant, student leaders, or
+            professors, and students, who are using this inferface for
+            entertainment purposes. I wanted to convey the feeling of
+            frustration when something did not go as expected, and how impactful
+            the lack of instrunctions can be on new users.
           </p>
         </div>
       </section>
@@ -260,10 +306,16 @@ const Personas = () => {
         <h2 style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }}>
           Storyboard:
         </h2>
+
         <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
+          <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+            Goal
+          </h3>
           Using the "Susan Sugandee" persona, I developed a storyboard that
           demonstrates our persona's goals, expectations, and experience using
-          the projection console interface.
+          the projection console interface in order to convey the effectiveness
+          of the interface's design, and to demonstrate design concepts such as
+          learnability.
           {/* Continuing the theme of frustrated,
           I constructed a scenario where on of the personas above, Susan,
           encountered a frustrating experience with the interface. */}
@@ -297,16 +349,14 @@ const Personas = () => {
         <div>
           <h1>Conclusion and Thoughts</h1>
           <p>
-            Overall, this was a worthwhile experience. I learned the foundations
-            of learnability, usability, and memorability. It was interesting to
-            think of physical object such as this projection console and things
-            like microwaves as interfaces, similar to that of a webpage. I
-            deepened my knowledge of the frustration that can come across with a
-            bad user interface that results in a bad user experience. This
-            project had helped me to understand potential downfalls that an
-            interface can have, knowledge I can utilize for later projects.
-            Overall, this classic user experience task was helpfull in
-            kick-starting my abilities as a webpage developer.
+            Overall, this process of analyzing user experience was a worthwhile
+            experience. It was interesting to think of physical object such as
+            this projection console and things like microwaves as interfaces,
+            similar to that of a webpage. I learned the foundations of
+            learnability, usability, and memorability and understood the
+            frustration that can come along with a bad user interface and user
+            experience. Overall, this classic user experience task was helpfull
+            in kick-starting my abilities as a webpage developer.
           </p>
         </div>
       </section>
