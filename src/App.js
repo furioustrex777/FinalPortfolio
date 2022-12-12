@@ -164,12 +164,12 @@ function App() {
       <Router>
         {/* <Navigation /> */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Personas" element={<Personas />} />
-          <Route path="/Redesign" element={<Redesign />} />
-          <Route path="/Iterative" element={<Iterative />} />
-          <Route path="/Develop" element={<Develop />} />
+          <Route path="/FinalPortfolio/" element={<Home />} />
+          <Route path="/FinalPortfolio/About" element={<About />} />
+          <Route path="/FinalPortfolio/Personas" element={<Personas />} />
+          <Route path="/FinalPortfolio/Redesign" element={<Redesign />} />
+          <Route path="/FinalPortfolio/Iterative" element={<Iterative />} />
+          <Route path="/FinalPortfolio/Develop" element={<Develop />} />
         </Routes>
       </Router>
 

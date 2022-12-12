@@ -388,10 +388,10 @@ const Redesign = () => {
       <section>
         <div className="bottumnav">
           <a href="/Personas" style={{ right: "0px" }}>
-            Personas and Storyboarding
+            &lt;- Personas and Storyboarding
           </a>
           <a href="/Iterative" style={{ left: "10px" }}>
-            Iterative Design
+            Iterative Design -&gt;
           </a>
         </div>
       </section>

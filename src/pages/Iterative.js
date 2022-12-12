@@ -446,10 +446,10 @@ const Iterative = () => {
       <section>
         <div className="bottumnav">
           <a href="/Redesign" style={{ left: "10px" }}>
-            Responsive Redesign
+            &lt;- Responsive Redesign
           </a>
           <a href="/Develop" style={{ right: "0px" }}>
-            Development
+            Development -&gt;
           </a>
         </div>
       </section>
