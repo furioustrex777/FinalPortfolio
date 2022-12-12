@@ -10,6 +10,8 @@ const Develop = () => {
   function handleTop() {
     window.scrollTo({ top: 0 });
   }
+  window.scrollTo({ top: 0 });
+
   return (
     <div id="cs1300-gallery">
       <img

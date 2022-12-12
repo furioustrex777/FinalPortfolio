@@ -38,6 +38,8 @@ const Iterative = () => {
   function handleTop() {
     window.scrollTo({ top: 0 });
   }
+  window.scrollTo({ top: 0 });
+
   return (
     // <div>
 

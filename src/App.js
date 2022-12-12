@@ -57,7 +57,7 @@ function App() {
       <div className="Header">
         <div className="Name">
           <div>
-            <a href="/">
+            <a href="/FinalPortfolio/">
               <h1 className="siteTitle">The Final Portfolio</h1>
             </a>
           </div>
@@ -70,22 +70,42 @@ function App() {
           {element}
           <div>
             <Menu right={true} isOpen={false}>
-              <a id="home" className="menu-item" href="/">
+              <a id="home" className="menu-item" href="/FinalPortfolio/">
                 Home
               </a>
-              <a id="about" className="menu-item" href="/about">
+              <a
+                id="about"
+                className="menu-item"
+                href="/FinalPortfolio/#/about"
+              >
                 About
               </a>
-              <a id="Personas" className="menu-item" href="/Personas">
+              <a
+                id="Personas"
+                className="menu-item"
+                href="/FinalPortfolio/#/Personas"
+              >
                 Personas
               </a>
-              <a id="Redesign" className="menu-item" href="/Redesign">
+              <a
+                id="Redesign"
+                className="menu-item"
+                href="/FinalPortfolio/#/Redesign"
+              >
                 Redesign
               </a>
-              <a id="Iterative" className="menu-item" href="/Iterative">
+              <a
+                id="Iterative"
+                className="menu-item"
+                href="/FinalPortfolio/#/Iterative"
+              >
                 Iterative
               </a>
-              <a id="Develop" className="menu-item" href="/Develop">
+              <a
+                id="Develop"
+                className="menu-item"
+                href="/FinalPortfolio/#/Develop"
+              >
                 Develop
               </a>
             </Menu>

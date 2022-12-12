@@ -14,49 +14,13 @@ const Redesign = () => {
   let hifitab = process.env.PUBLIC_URL + "/" + "images/hifitab.png";
   let redesigned = process.env.PUBLIC_URL + "/" + "images/redesigned.png";
 
-  //   let value;
-
-  //   function handleChange({ event }) {
-  //     let to = document.querySelectorAll(".hi");
-  //     let from = document.querySelectorAll("demo");
-  //     console.log(to, from);
-
-  //     console.log(to[0].width, from.width);
-  //     from.width = to[0].outerTe;
-  //   }
-
-  //   function display() {
-  //     return (
-  //       <div>
-  //         <div
-  //           className="demo"
-  //           style={{ backgroundColor: "white", width: value }}
-  //         >
-  //           {" "}
-  //           <br></br>
-  //         </div>
-  //         <div></div>
-  //         <Slider
-  //           //   size="small"
-  //           className="hi"
-  //           defaultValue={70}
-  //           //   aria-label="Small"
-  //           valueLabelDisplay="auto"
-  //           onChange={(event) => handleChange(event)}
-  //         />
-  //         {/* <Slider
-  //           defaultValue={50}
-  //           aria-label="Default"
-  //           valueLabelDisplay="auto"
-  //         /> */}
-  //       </div>
-  //     );
-  //   }
   let up = process.env.PUBLIC_URL + "/" + "images/up.png";
 
   function handleTop() {
     window.scrollTo({ top: 0 });
   }
+  window.scrollTo({ top: 0 });
+
   return (
     <div id="cs1300-gallery">
       <img
