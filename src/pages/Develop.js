@@ -253,10 +253,10 @@ const Develop = () => {
       </section>
       <section>
         <div className="bottumnav">
-          <a href="/Iterative" style={{ left: "10px" }}>
+          <a href="/FinalPortfolio/#/Iterative" style={{ left: "10px" }}>
             &lt;- Iterative Design
           </a>
-          <a href="/Personas" style={{ right: "0px" }}>
+          <a href="/FinalPortfolio/#/Personas" style={{ right: "0px" }}>
             Personas and Storyboarding -&gt;
           </a>
         </div>

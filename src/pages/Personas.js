@@ -312,10 +312,10 @@ const Personas = () => {
       </section>
       <section>
         <div className="bottumnav">
-          <a href="/Develop" style={{ right: "0px" }}>
+          <a href="/FinalPortfolio/#/Develop" style={{ right: "0px" }}>
             &lt;- Development
           </a>
-          <a href="/Redesign" style={{ left: "10px" }}>
+          <a href="/FinalPortfolio/#/Redesign" style={{ left: "10px" }}>
             Responsive Redesign -&gt;
           </a>
         </div>
