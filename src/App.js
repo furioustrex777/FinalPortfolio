@@ -25,7 +25,7 @@ bakeryData.forEach((item) => {
 function App() {
   const [options, setOptions] = useState(bakeryData);
   let element;
-  if (window.location.pathname === "/") {
+  if (window.location.pathname === "/FinalPortfolio/") {
     element = (
       <TypeAnimation
         className="Typeanimation"
