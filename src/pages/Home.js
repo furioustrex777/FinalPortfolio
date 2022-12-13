@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <div>
-      <Slider className="slider-wrapper" autoplay={30000}>
+      <Slider className="slider-wrapper" autoplay={3000}>
         {bakeryData.map((item, index) => (
           <div
             key={index}

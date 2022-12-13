@@ -44,7 +44,7 @@ function App() {
         speed={50} // Custom Speed from 1-99 - Default Speed: 40
         style={{ fontSize: "2em" }}
         wrapper="span" // Animation will be rendered as a <span>
-        repeat={4} // Repeat this Animation Sequence infinitely
+        repeat={Infinity} // Repeat this Animation Sequence infinitely
       />
     );
   }
