@@ -1,9 +1,7 @@
 import React from "react";
 import "./Personas.css";
-import { Slider } from "@mui/material";
 
 const Redesign = () => {
-  // process.env.PUBLIC_URL + "/" + 'images/Projectior_Sketch.jpg
   let ThaiOriginal = process.env.PUBLIC_URL + "/" + "images/ThaiOriginal.jpeg";
   let designguide1 = process.env.PUBLIC_URL + "/" + "images/designguide1.png";
   let lofiphone = process.env.PUBLIC_URL + "/" + "images/lofiphone.png";
@@ -38,6 +36,15 @@ const Redesign = () => {
             Overview
           </h2>
           <p>
+            When a website is responsive, it automatically adjusts its layout
+            and content to fit the size of the user's screen, providing a
+            positive user experience. This is especially important in today's
+            world where people access the internet with various devices,
+            including smartphones, tablets, and laptops with varying screen
+            sizes. A responsive website ensures that all users have a seamless
+            and enjoyable experience, regardless of the device they are using.
+            <br></br>
+            <br></br>
             In this project, I redesigned a restaurant's food ordering page,
             aiming to improve its usability and memorability. I created low
             fidelity wireframes after analyzing the initial webpage and
@@ -115,7 +122,7 @@ const Redesign = () => {
           </div> */}
           <div class="column">
             <h3 style={{ textAlign: "center", color: "#49565b" }}>Usability</h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b" }}>
               <li style={{ padding: "0", color: "#49565b" }}>
                 Interface glitches as you scroll
               </li>
@@ -132,7 +139,7 @@ const Redesign = () => {
             <h3 style={{ textAlign: "center", color: "#49565b" }}>
               Learnability
             </h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b" }}>
               <li style={{ padding: "0", color: "#49565b" }}>
                 Buttons icons can be misleading (Down arrow to close)
               </li>
@@ -151,7 +158,7 @@ const Redesign = () => {
             <h3 style={{ textAlign: "center", color: "#49565b" }}>
               Memorability
             </h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b" }}>
               <li style={{ padding: "0", color: "#49565b" }}>
                 Color scheme is unappealing, and there is not a lot of variety,
                 a lot of whitespace
@@ -211,16 +218,13 @@ const Redesign = () => {
 
       <section>
         <h2>Low and High Fidelity Prototyping</h2>
-        {/* <p>
-          Because we want the page to be responsive, meaning the page would
-          resize or relayout depending on the dimensions of the interface, I
-          wanted to prototype how this page would look on the three main
-          interfaces: Laptop, Tablet, and Phone. Before actual redesigning this
-          page, I created low fidelity prototype, which I used to see and
-          determine the overall layout of the interface. I then used a high
-          fidelity prototype to add details and color to see how the page would
-          actual look.
-        </p> */}
+        <p>
+          Low fidelity and high fidelity prototyping are important parts of the
+          designing process, helping designers to experiment with ideas. Low
+          fidelity prototypes are rough mockups to quickly test out ideas and
+          concepts. High fidelity prototypes are more detailed and resemble the
+          final product and is used to test the user experience of a product.
+        </p>
         <div className="centering">
           <div id="description">
             <h3 style={{ textAlign: "center", color: "#49565b" }}>Phone:</h3>
@@ -376,12 +380,12 @@ const Redesign = () => {
           <p>
             This project helped to develop my HTML and CSS skills greatly. I
             discovered and experimented with things such as flex-box and hover
-            aspects of CSS. Throughout the development process, I got to
-            experience a lot of struggle and success, but it was an experience
-            that made me more confident in my ability to develop and design
-            webpages. I received valid feedback and learned how there will
-            always exist differing opinions but if the goal was there, it was
-            okay. I wanted to emphasize usability and memorability, and I
+            aspects of CSS, things I had not used previously. Throughout the
+            development process, I got to experience a lot of struggle and
+            success, but it made me more confident in my ability to develop and
+            design webpages. I received valid feedback and learned how there
+            will always exist differing opinions but if the goal was there, it
+            was okay. I wanted to emphasize usability and memorability, and I
             believe I accomplished just that.
           </p>
         </div>

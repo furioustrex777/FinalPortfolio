@@ -50,20 +50,28 @@ const Iterative = () => {
       ></img>
       <script src="app.prev"></script>
       <section>
-        <h1>Iterative Design</h1>
+        <h1 style={{ fontSize: "60px", marginTop: "0" }}>Iterative Design</h1>
 
         <h2>Overview</h2>
         <div>
           <p>
-            Approximately 305 million start-ups are created annually. In this
-            project we aimed to mock up a solution to a start-ups concept. In
-            hopes of achieving this goal, we have created a mobile interactive
-            interface for Rever, an app for making returns. Our group designed
-            an interactive prototype for this start-up with only the concept of
-            fast returns as our foundations. This process involved sketching
-            ideas of the interface to creating an interactive high-fidelity
-            prototype, to conducting user testing on a critiqued prototype. We
-            then contacted the startup to share our prototype with them.
+            Iterative design is the process of creating a solution through a
+            series of iterations of designing, testing, and evaluating, allowing
+            for changes and improvements based on feedback and results from
+            previous iterations. By continually revising and improving upon a
+            solution, iterative design helps to ensure that the final product
+            effectively meets the needs of users.
+            <br></br>
+            <br></br> Approximately 305 million start-ups are created annually.
+            In this project we aimed to mock up a solution to a start-ups
+            concept. In hopes of achieving this goal, we have created a mobile
+            interactive interface for Rever, an app for making returns. Our
+            group designed an interactive prototype for this start-up with only
+            the concept of fast returns as our foundations. This process
+            involved sketching ideas of the interface to creating an interactive
+            high-fidelity prototype, to conducting user testing on a critiqued
+            prototype. We then contacted the startup to share our prototype with
+            them.
           </p>
           <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
             Key Skills Obtained:
@@ -106,14 +114,14 @@ const Iterative = () => {
 
         <div>
           <p>
-            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+            {/* <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Interface Audience Goal
             </h3>
             Our interface mainly impacts small to medium sized businesses that
             work in sales, as well as consumers of all ages and socioeconomic
             statuses, as this service provides an ease of life experience.
             <br></br>
-            <br></br>
+            <br></br> */}
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Customers
             </h3>
@@ -127,10 +135,11 @@ const Iterative = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Businesses
             </h3>
-            Businesses can manage all refunds from all customers in one page and
-            can visualize refunds completed, in-progress, and canceled. The
-            simple interface makes it more accessible, enhancing memorability,
-            while still having all the required information present.
+            Businesses would want to manage all refunds from all customers in
+            one page and visualize all completed, in-progress, or canceled
+            refunds . A simple interface makes it more accessible, enhancing
+            memorability, while still having all the required information
+            present.
           </p>
         </div>
       </section>
@@ -392,7 +401,8 @@ const Iterative = () => {
           </h3>
           Finally, through UserTesting.com, a remote user testing service, we
           conducted usability testing on our revised prototype. We had users
-          interact with our interface to receive more feedback and show us how
+          interact with our interface to receive more feedback, identify any
+          potential issues or problems with our prototypes and show us how
           effectively our ideas were implemented.
         </p>
 
@@ -659,15 +669,15 @@ const Iterative = () => {
         <div>
           <h1>Conclusion and Thoughts</h1>
           <p>
-            In conclusion, through the iterative design process, we learned alot
-            about the importance of feedback. In order to accomplish our goal of
-            making this interface match the goals of Rever, we found our final
-            prototype to be quite different from our original sketchings. We
-            needed a balance of hierarchy, simplicity, and natural flow as we
+            In conclusion, through the iterative design process, we learned a
+            lot about the importance of feedback. In order to accomplish our
+            goal of making this interface match the goals of Rever, we found our
+            final prototype to be quite different from our original sketchings.
+            We needed a balance of hierarchy, simplicity, and natural flow as we
             learned from a current Figma employee. Based on the results of the
-            user testing, we believe we did accomplish our goal as the start-up
+            user testing, we believe we did accomplish our goal, as the start-up
             liked our prototype, and we realized how we could constantly improve
-            upon our design.
+            upon our design with an iterative design process.
           </p>
         </div>
       </section>

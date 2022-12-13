@@ -40,6 +40,12 @@ const Personas = () => {
             Overview
           </h2>
           <p>
+            Personas and Storyboarding is a classic research method we
+            experimented with and is an essential part of user-centered design
+            to ensure interfaces are created with the user's best interests in
+            mind.
+            <br></br>
+            <br></br>
             This website's goal is to analyze different user's interactions with
             the projection console and their overall experience using this
             interface. Furthermore, after making initially observations, I
@@ -180,6 +186,14 @@ const Personas = () => {
                 quickly.
               </li>
             </ul>
+            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
+              At a glance
+            </h3>
+            Although my first impressions of the interface was that it was
+            pretty intuitive, however, it seems that to the general user, this
+            was not the case. Their observable frustration may have been due to
+            the crowd in front of them, but to truly understand their experience
+            we will interview the users directly.
           </p>
         </div>
       </section>
@@ -265,10 +279,6 @@ const Personas = () => {
         <h2 style={{ fontSize: "40px", color: "#49565B", marginTop: "0" }}>
           Empathy Maps:
         </h2>
-        {/* <p style={{ fontSize: "27px", color: "#49565B", marginTop: "0" }}>
-          Based on our observations and interviews, I created two personas that
-          would use this projection console.
-        </p> */}
         <div className="centering">
           <img
             class="empathymaps"
@@ -292,13 +302,16 @@ const Personas = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Creation Process
             </h3>
-            Based on my observations and interviews, my personas represented the
-            main users of a projection console, those who need to present
-            something, such as a teaching assistant, student leaders, or
-            professors, and students, who are using this interface for
-            entertainment purposes. I wanted to convey the feeling of
-            frustration when something did not go as expected, and how impactful
-            the lack of instructions can be on new users.
+            Based on my observations and interviews, I created two empathy Maps,
+            or fictional personas, that represented the different types of users
+            who will interact with a projection console, those who need to
+            present something, such as a Professor, and students, who may use
+            this interface for entertainment purposes. By creating personas, I
+            can better understand the needs, goals, and motivations of users to
+            improve their overall user experience.
+            {/* I wanted to convey the
+            feeling of frustration when something did not go as expected, and
+            how impactful the lack of instructions can be on new users. */}
           </p>
         </div>
       </section>
@@ -314,8 +327,8 @@ const Personas = () => {
           Using the "Susan Sugandee" persona, I developed a storyboard that
           demonstrates our persona's goals, expectations, and experience using
           the projection console interface in order to convey the effectiveness
-          of the interface's design, and to demonstrate design concepts such as
-          learnability.
+          of the interface's user based design, and to demonstrate design
+          concepts such as learnability.
           {/* Continuing the theme of frustrated,
           I constructed a scenario where on of the personas above, Susan,
           encountered a frustrating experience with the interface. */}

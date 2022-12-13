@@ -21,12 +21,18 @@ const Develop = () => {
       ></img>
       <section>
         <div>
-          <h1>Development</h1>
-
+          <h1 style={{ fontSize: "60px", marginTop: "0" }}>Development</h1>
+          <h2>Overview</h2>
           <p>
-            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
-              Overview
-            </h3>
+            React is a popular open-source JavaScript library for building user
+            interfaces. One benefit of React is its reusable components, which
+            can be integrated into different parts of an application.
+            Additionally, React makes it easy to manage and update the state of
+            an application, which is important for maintaining a consistent and
+            smooth user experience, allowing for faster and more efficient
+            development of web and mobile applications.
+            <br></br>
+            <br></br>
             In contrast to HTML that we have been using previously for
             developing static web pages, with React, we are able to build more
             dynamic and interactive websites to improve upon user experience and
@@ -34,10 +40,29 @@ const Develop = () => {
             an interactive interface, using the building blocks of React,
             components, proponents, and states.
           </p>
+          <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
+            Key Skills Obtained:
+          </h2>
+          <ul>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Developed JavaScript, JSON files, HTML, and CSS skills
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Familiarity with React, components, states, and proponents
+            </li>
+            <li style={{ padding: "0", color: "#49565b" }}>
+              Dynamic programing and basic web page functionality
+            </li>
+            <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
+              Github webpage deployment
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2>Finalized Webpage</h2>
           <p>
-            <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
-              Task
-            </h3>
             To increase our familiarity with React, we created a list-based
             interface, which supports an aggregator and sorting and filtering
             functionality. Thousands of websites are developed everyday, wanting
@@ -45,11 +70,11 @@ const Develop = () => {
             start-up, and React is a great resource for doing so.
           </p>
 
-          <p>
+          {/* <p>
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
-              The Finalized Webpage
+              The
             </h3>
-          </p>
+          </p> */}
           <div id="ogwebsite">
             <img class="ogwebsite" src={develop}></img>
           </div>
@@ -71,7 +96,7 @@ const Develop = () => {
         <div class="columns">
           <div class="column">
             <h3 style={{ textAlign: "center", color: "#49565b" }}>Filtering</h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
                 You're able to filter the list of goods on two different fields
                 with six options in total. The two fields are the type of bakery
@@ -89,7 +114,7 @@ const Develop = () => {
           </div>
           <div class="column">
             <h3 style={{ textAlign: "center", color: "#49565b" }}>Sorting</h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
                 By default, the list of goods is sorted in order of most popular
                 to least popular.
@@ -104,7 +129,7 @@ const Develop = () => {
             <h3 style={{ textAlign: "center", color: "#49565b" }}>
               Aggregator
             </h3>
-            <ul>
+            <ul style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
                 The aggregator I chose to implement was a favoriting system,
                 allowing you to add and remove bakery goods from your list of
@@ -126,24 +151,6 @@ const Develop = () => {
 
       <section>
         <h2>Development Process</h2>
-        <p>
-          <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
-            Key Skills Obtained
-          </h3>
-        </p>
-        <ul>
-          <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            Familiarity with React, components, and states
-          </li>
-          <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            Increased familiarity with JavaScript, JSON files, HTML, and CSS
-            skills
-          </li>
-          <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            Github webpage deployment
-          </li>
-        </ul>
-
         <p>
           <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
             The Application

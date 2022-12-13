@@ -43,8 +43,8 @@ const Home = () => {
             Welcome to my Portfolio! I'm a Senior at Brown University and this
             is my final portfolio for 'User Interface and User Experience'. The
             reason I took this class was to explore a new field of Computer
-            Science. I took this as an opportunity to experiment, try new
-            things, have fun and broaden by abilities as a future software
+            Science. I took this as an opportunity to experiment and learn, try
+            new things, have fun, and broaden my abilities as a future software
             developer.
             <br></br>
             <br></br>
