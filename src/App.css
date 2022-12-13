@@ -287,8 +287,8 @@ input[type="checkbox"]:checked:after {
 .previousButton,
 .nextButton {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc(50vh - 190px);
+  /* transform: translateY(-50%); */
   z-index: 10;
   /* content: "<"; */
   /* background: url("https://svgshare.com/s/oTV") no-repeat center center / 16px; */
@@ -297,15 +297,15 @@ input[type="checkbox"]:checked:after {
   color: wheat;
   width: 32px;
   height: 32px;
-  text-indent: -9999px;
+  /* text-indent: -9999px; */
   cursor: pointer;
 }
 
-.previousButton {
+/* .previousButton {
   margin-right: 2rem;
-  /* margin-top: 2rem; */
-  /* margin-bottom: 2rem; */
-}
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+} */
 
 .previousButton:hover,
 .nextButton:hover {
@@ -314,21 +314,21 @@ input[type="checkbox"]:checked:after {
 }
 
 .previousButton {
-  left: 0.25%;
+  left: 0.75%;
   -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
   transform: rotate(180deg) translateY(calc(50% + 0px));
 }
 
 .previousButton:hover {
-  left: 0%;
+  left: 0.5%;
 }
 
 .nextButton {
-  right: -95.5%;
+  right: -96%;
 }
 
 .nextButton:hover {
-  right: -95.75%;
+  right: -96.25%;
 }
 
 .slider-content {
