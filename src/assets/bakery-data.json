@@ -3,28 +3,28 @@
     "name": "Personas and StoryBoarding",
     "description": "UX Research | Personas | Storyboarding",
     "image": "images/personas.png",
-    "summary": "We can think and analyze of interfaces in many different ways, and we can use this classic user experience task to determine and cater our design and functionality to that of our users. ",
+    "summary": "We can think and analyze interfaces in many different ways, and we can use this classic user experience task to determine and cater our design and functionality to that of our users. ",
     "pageName": "Personas"
   },
   {
     "name": "Responsive Redesign",
     "description": "HTML & CSS | Responsiveness | Prototyping",
     "image": "images/redesigned.png",
-    "summary": "Finding and analyzing existing websites, I found ways to improve upon the goals of the page. I choose a webpage I didn't like initally and tried to redesign the whole page to be a more memorable experience.",
+    "summary": "Finding and analyzing existing websites, I found ways to improve upon the goals of the page. I chose this web page as I didn't like initially and tried to redesign the whole page to be a more memorable experience.",
     "pageName": "Redesign"
   },
   {
     "name": "Iterative Design",
     "description": "Mobile App Design | User Testing | Figma",
     "image": "images/iterative.png",
-    "summary": "Having to design the interface from scratch, we designed an mobile app where we used our design techniques to help a start-up achieve the goals of their idea.",
+    "summary": "Having to design the interface from scratch, we designed a mobile app where we used our design techniques to help a start-up achieve the goals of their idea.",
     "pageName": "Iterative"
   },
   {
     "name": "Development",
     "description": "Development | React | JavaScript",
     "image": "images/bakery.png",
-    "summary": "Working with dynamic pages, and JavaScript to provide functionality. With freedom to design and implement functionality such as sorting and aggregating, I developed this webpage from scratch.",
+    "summary": "Working with dynamic pages, and JavaScript to provide functionality, with the freedom to design and implement functionality such as sorting and aggregating, I developed this webpage from scratch.",
     "pageName": "Develop"
   }
 ]

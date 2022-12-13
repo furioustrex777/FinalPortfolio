@@ -117,11 +117,11 @@ const Iterative = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Customers
             </h3>
-            Customers would want to easy and fast refund process with their
+            Customers would want an easy and fast refund process with their
             mobile phones. Customers can select items they would like to return,
-            and in one click have three option for returns: instant refund, full
-            refund, and refund through store credit, making this process only
-            three clicks.
+            and in one click have three options for returns: instant refund,
+            full refund, and refund through store credit, making this process
+            only three clicks.
             <br></br>
             <br></br>
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
@@ -239,7 +239,7 @@ const Iterative = () => {
               Step 3
             </h3>
             We then developed our wireframes into a high fidelity mockup in
-            order to recieve feedback from our peers.
+            order to receive feedback from our peers.
           </p>
           <img
             class="gallery-item2"
@@ -354,8 +354,8 @@ const Iterative = () => {
           <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
             Step 4
           </h3>
-          After analying and implementing the feedback from our peer's critique,
-          we developed the following prototype:
+          After analyzing and implementing the feedback from our peer's
+          critique, we developed the following prototype:
         </p>
         <div class="gallery-item-container">
           <img
@@ -392,7 +392,7 @@ const Iterative = () => {
           </h3>
           Finally, through UserTesting.com, a remote user testing service, we
           conducted usability testing on our revised prototype. We had users
-          interact without interface to recieve more feedback and shows us how
+          interact with our interface to receive more feedback and show us how
           effectively our ideas were implemented.
         </p>
 

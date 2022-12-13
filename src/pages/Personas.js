@@ -42,11 +42,11 @@ const Personas = () => {
           <p>
             This website's goal is to analyze different user's interactions with
             the projection console and their overall experience using this
-            interface. Furthermore, after making initally observations, I
+            interface. Furthermore, after making initially observations, I
             conducted interviews to better understand these users and the
-            context surronding their actions. After some analysis, I created and
-            utilized an empathy map, or users personas, to inform a storyboard
-            of a typical users experience
+            context surrounding their actions. After some analysis, I created
+            and utilized an empathy map, or users personas, to inform a
+            storyboard of a typical users experience.
           </p>
           <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
             Key Skills Obtained:
@@ -86,7 +86,7 @@ const Personas = () => {
           >
             After attending classes at Brown and likely most other colleges, you
             may have likely been projected a presentation or video for class.
-            Almost all classrooms at Brown have projecting capabilities that is
+            Almost all classrooms at Brown have projecting capabilities that are
             controlled through this projection console. It helps to consolidate
             all the buttons required in the classroom, such as lighting and
             shades, into one interface.
@@ -124,7 +124,7 @@ const Personas = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Interface Design Intentions
             </h3>
-            This is an touch screen interface that controls the projector,
+            This is a touch screen interface that controls the projector,
             lights, shades, audio, and screen all in one location. It is used by
             many to project their screens, to show presentations, videos, and
             many more things. This interface aims to simplify the complex steps
@@ -135,11 +135,11 @@ const Personas = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Layout Design
             </h3>
-            The inital page is for fast and easy operations, with common fuction
-            in the utility bar to the right of the screen.
+            The initial page is for fast and easy operations, with common
+            functions in the utility bar to the right of the screen.
             <br></br>
-            Then there is an advanced page that allows for more custimzation and
-            control over the room.
+            Then there is an advanced page that allows for more customization
+            and control over the room.
           </p>
         </div>
       </section>
@@ -160,19 +160,19 @@ const Personas = () => {
             <ul>
               <li style={{ padding: "0" }}>
                 As people worked with the interface, they initally looked at the
-                screen for a bit of time, before continuing with their task.
+                screen for a bit of time before continuing with their task.
               </li>
               <li style={{ padding: "0" }}>
                 Most users connected the projector with the HDMI cord and this
-                worked about 75% of the time but when users ran into issues this
-                with cord, users would default to AirMedia.
+                worked about 75% of the time but when users ran into issues with
+                the cord, users would default to AirMedia.
               </li>
               <li style={{ padding: "0" }}>
                 Some people utilized the advanced screen to control the screen,
                 lights, and shades in the room.
               </li>
               <li style={{ padding: "0" }}>
-                Most people often seemed to make a confused face at time while
+                Most people often seemed to make a confused face at times while
                 interacting with the interface.
               </li>
               <li style={{ padding: "0" }}>
@@ -232,7 +232,7 @@ const Personas = () => {
                 <li style={{ padding: "0" }}>
                   "The interface was similar to a touch screen interface such as
                   an IPad, and I made assumptions on the functionality with the
-                  labels, however, labeling and intructions should have been
+                  labels, however, labeling and instructions should have been
                   clearer."
                 </li>
               </ul>
@@ -241,11 +241,11 @@ const Personas = () => {
               </li>
               <ul>
                 <li style={{ padding: "0" }}>
-                  " Overall, it was a frustrating experience as there were many
+                  "Overall, it was a frustrating experience as there were many
                   unexpected problems that I ran into, and things did not often
-                  work on the first attempt, which lead to a feeling that the
-                  process should and could be easier and a feeling that it too
-                  longer than wanted to do the task."
+                  work on the first attempt, which led to a feeling that the
+                  process should and could be easier and a feeling that it took
+                  too long to do the task."
                 </li>
               </ul>
             </ol>
@@ -254,10 +254,10 @@ const Personas = () => {
             </h3>
             As we can see from the responses above, despite the goal of the
             projection console to consolidate the steps of creating a streamline
-            user experience, due to the lack of instruction, it was a
-            frustrating experience overall for first time users. This leads to
-            an initally negative memorable experience and was inline with my
-            inital observations.
+            user experience, due to the lack of instruction it was a frustrating
+            experience overall for first time users. This leads to an initially
+            negative memorable experience and was inline with my initial
+            observations.
           </p>
         </div>
       </section>
@@ -295,10 +295,10 @@ const Personas = () => {
             Based on my observations and interviews, my personas represented the
             main users of a projection console, those who need to present
             something, such as a teaching assistant, student leaders, or
-            professors, and students, who are using this inferface for
+            professors, and students, who are using this interface for
             entertainment purposes. I wanted to convey the feeling of
             frustration when something did not go as expected, and how impactful
-            the lack of instrunctions can be on new users.
+            the lack of instructions can be on new users.
           </p>
         </div>
       </section>
@@ -355,8 +355,8 @@ const Personas = () => {
             similar to that of a webpage. I learned the foundations of
             learnability, usability, and memorability and understood the
             frustration that can come along with a bad user interface and user
-            experience. Overall, this classic user experience task was helpfull
-            in kick-starting my abilities as a webpage developer.
+            experience. Overall, this classic user experience task was helpful
+            in kick-starting my abilities as a web page developer.
           </p>
         </div>
       </section>

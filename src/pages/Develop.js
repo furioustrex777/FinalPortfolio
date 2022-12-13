@@ -27,10 +27,10 @@ const Develop = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Overview
             </h3>
-            In constrast to HTML that we have been using previously for
-            developing static webpages, with React, we are able to build more
+            In contrast to HTML that we have been using previously for
+            developing static web pages, with React, we are able to build more
             dynamic and interactive websites to improve upon user experience and
-            user interface. In this project, we are given the change to develop
+            user interface. In this project, we are given the chance to develop
             an interactive interface, using the building blocks of React,
             components, proponents, and states.
           </p>
@@ -39,9 +39,9 @@ const Develop = () => {
               Task
             </h3>
             To increase our familiarity with React, we created a list-based
-            interface, which support an aggregator and sorting and filtering
+            interface, which supports an aggregator and sorting and filtering
             functionality. Thousands of websites are developed everyday, wanting
-            to share their ideas and provide a service, similar to that of
+            to share their ideas and provide a service, similar to that of a
             start-up, and React is a great resource for doing so.
           </p>
 
@@ -75,7 +75,7 @@ const Develop = () => {
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
                 You're able to filter the list of goods on two different fields
                 with six options in total. The two fields are the type of bakery
-                goods and the dietary restrictions of the good.
+                goods and the dietary restrictions of the goods.
               </li>
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
                 For the type of bakery goods, the options are: Pastry, Bread,
@@ -106,7 +106,7 @@ const Develop = () => {
             </h3>
             <ul>
               <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-                The aggregator I choose to implement was a favoriting system,
+                The aggregator I chose to implement was a favoriting system,
                 allowing you to add and remove bakery goods from your list of
                 favorite goods.
               </li>
@@ -152,8 +152,8 @@ const Develop = () => {
           such as pastries, cake, and bread. Important nutritional information
           is also provided such as calories and dietary restrictions. Having
           easy access to this information, as well as being able to favorite
-          those items, greatly adds value to applicatopn, saving users time and
-          effort looking for this information on their own.
+          those items, greatly adds value to the application, saving users time
+          and effort looking for this information on their own.
         </p>
         <p>
           <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
@@ -162,7 +162,7 @@ const Develop = () => {
         </p>
         <ul>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            I used one component, a BakeryItem component, that holds of the
+            I used one component, a BakeryItem component, that holds the
             information of each bakery item. This includes the image, name,
             description, price, calories, dietary-restrictions, and the type of
             the bakery item.
@@ -174,7 +174,7 @@ const Develop = () => {
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
             Bakeryitems were also used as proponents. This allowed me to use the
-            information stored in them in order to have funcitons based on
+            information stored in them in order to have functions based on
             content. String variables were also used to determine the
             functionality of buttons.
           </li>
@@ -192,8 +192,8 @@ const Develop = () => {
             is what to default to if the situation calls for it.
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            My favs list state holds all the favorited items, and utilized a
-            favorite boolean, allowing me two determine if a different
+            My favs list state holds all the favorite items, and utilizes a
+            favorite boolean, allowing me to determine if a different
             functionality is needed if you are looking at your favorites or not.
           </li>
         </ul>
@@ -235,8 +235,8 @@ const Develop = () => {
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
             I ordered the filtering options in order of most likely to be used,
-            while allowing those options to all to remain visible throughout the
-            whole process.
+            while allowing those options to remain visible throughout the whole
+            process.
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
             For the BakeryItem component, I then centralized the important
@@ -244,12 +244,12 @@ const Develop = () => {
             in the same location helping with learnability and usability.
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            This is accompanyed by an easy access to the favorite aggregator
-            feature as remove and add options remained in the same location.
+            This is accompanied by an easy access to the favorite aggregator
+            feature as remove and add options remain in the same location.
           </li>
           <li style={{ padding: "0", color: "#49565b", lineHeight: "1.5" }}>
-            Finally the BakeryItem were stacked into a scrollable list allowing
-            multiple items to be showed along with the filtering and sorting
+            Finally, the BakeryItem was stacked into a scrollable list allowing
+            multiple items to be shown along with the filtering and sorting
             container within the single page.
           </li>
         </ul>
@@ -277,7 +277,7 @@ const Develop = () => {
             provide functionality to the buttons on the page. Although not
             required, I wanted to make this page the best it could be, in design
             and functionality. All the functionality works no matter the
-            combination of sorting, filtering, or aggergating. Additionally, I
+            combination of sorting, filtering, or aggregating. Additionally, I
             explored CSS aspects to make the buttons visibly buttons, adding
             hovering and before and after affects. I had a lot of fun with this
             assignment as there was a lot of freedom in how we could approach

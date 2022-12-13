@@ -38,13 +38,13 @@ const Redesign = () => {
             Overview
           </h2>
           <p>
-            In this project, I redesigned a resturants food ordering page,
+            In this project, I redesigned a restaurant's food ordering page,
             aiming to improve its usability and memorability. I created low
-            fidelity wireframes after analying the inital webpage and
+            fidelity wireframes after analyzing the initial webpage and
             discovering where it could be improved. Then, I finalized the design
             with high fidelity prototypes and with that as guidance, I developed
             the webpages using HTML and CSS with responsive elements such that
-            it was consistant accross all screen sizes.
+            it was consistent across all screen sizes.
           </p>
           <h2 style={{ fontSize: "30px", color: "#49565B", marginTop: "0" }}>
             Key Skills Obtained:
@@ -70,7 +70,7 @@ const Redesign = () => {
           <h2>Website: Thai Food Connection</h2>
 
           <p>
-            Website are always created almost everyday with new ideas being
+            Websites are always created almost everyday with new ideas being
             developed by those who want to share their ideas or want to provide
             a service. However, there are websites that have been neglected or
             not updated after a while. This page will explore and redesign the
@@ -80,7 +80,7 @@ const Redesign = () => {
             <h3 style={{ fontSize: "30px", color: "#49565B", margin: "0" }}>
               Why this webpage?
             </h3>
-            I choose this website, because when I first saw this page, I did not
+            I chose this website, because when I first saw this page, I did not
             like it nor find it memorable, and thought it was not up to par with
             the other ordering pages that I had seen before. This is Thai Food
             Connection's original website below that displays their menu items
@@ -181,8 +181,8 @@ const Redesign = () => {
           alternative text, as well as some functional issues. I agreed with the
           results as I was not surprised there were a lot of missing alternative
           text and empty form labels. Additionally, the service pointed out
-          useless buttons and redundacies that I had initally seen in the
-          problems section above, leading the conclusionss I made about
+          useless buttons and redundancies that I had initially seen in the
+          problems section above, leading to the conclusions I made about
           usability and memorability being lacking.
         </p>
       </section>
@@ -200,7 +200,7 @@ const Redesign = () => {
           typography, and components in different states. This allows us to
           ensure that the interactions are consistent throughout our redesign in
           order to keep the user's experience coherent, in addition to allowing
-          us time to explore desing with different colors and choices.
+          us time to explore design with different colors and choices.
           {/* <br></br>
           <br></br>I choose a similar color scheme to the existing one, and I
           choose a more rounded style for the components rather than the
@@ -247,8 +247,8 @@ const Redesign = () => {
                   Increase usability by placing options all in one location.
                 </li>
                 <li style={{ padding: "0", color: "#49565b" }}>
-                  Emphasis on food items on the smaller screen, moving checkout
-                  panel to buttom of screen.
+                  Emphasis on food items on the smaller screen, moving the
+                  checkout panel to buttom of screen.
                 </li>
               </ul>
               {/* <p style={{ textAlign: "left" }}>
@@ -287,10 +287,11 @@ const Redesign = () => {
                   the right, to be a static element that is always visible.
                 </li>
                 <li style={{ padding: "0", color: "#49565b" }}>
-                  Moved the food panels leftward for the cart.
+                  Moved the food panels leftward to make space for the checkout
+                  container.
                 </li>
                 <li style={{ padding: "0", color: "#49565b" }}>
-                  Resized elements as space became avaliable
+                  Resized elements as space became avaliable.
                 </li>
               </ul>
               {/* <p style={{ textAlign: "left" }}>
@@ -322,14 +323,14 @@ const Redesign = () => {
               </h3>
               <ul>
                 <li style={{ padding: "0", color: "#49565b" }}>
-                  With a larger screen, I added a quick link menu that may be
-                  hidden to all the food categories.
+                  With a larger screen, I added a quick link to menu categories
+                  that may be hidden on the landing page.
                 </li>
                 <li style={{ padding: "0", color: "#49565b" }}>
                   The quick link menu is sticky and will always be visible.
                 </li>
                 <li style={{ padding: "0", color: "#49565b" }}>
-                  Resized elements as space became avaliable
+                  Resized elements as space became avaliable.
                 </li>
               </ul>
               {/* <p style={{ textAlign: "left" }}>
@@ -376,11 +377,11 @@ const Redesign = () => {
             This project helped to develop my HTML and CSS skills greatly. I
             discovered and experimented with things such as flex-box and hover
             aspects of CSS. Throughout the development process, I got to
-            experience a lot of stuggle and success, but it was an experience
+            experience a lot of struggle and success, but it was an experience
             that made me more confident in my ability to develop and design
             webpages. I received valid feedback and learned how there will
-            always exisits differing opinions but if the goal was there, it was
-            okay. I wanted to emphasize usuablity and memorability, and I
+            always exist differing opinions but if the goal was there, it was
+            okay. I wanted to emphasize usability and memorability, and I
             believe I accomplished just that.
           </p>
         </div>
