@@ -26,7 +26,7 @@ function App() {
   const [options, setOptions] = useState(bakeryData);
   let element;
   console.log(window.location.pathname);
-  if (window.location.pathname === "/FinalPortfolio/") {
+  if (window.location.pathname === "/FinalPortfolio") {
     element = (
       <TypeAnimation
         className="Typeanimation"
@@ -58,7 +58,7 @@ function App() {
       <div className="Header">
         <div className="Name">
           <div>
-            <a href="/FinalPortfolio/">
+            <a href="/FinalPortfolio">
               <h1 className="siteTitle">The Final Portfolio</h1>
             </a>
           </div>
@@ -71,7 +71,7 @@ function App() {
           {element}
           <div>
             <Menu right={true} isOpen={false}>
-              <a id="home" className="menu-item" href="/FinalPortfolio/">
+              <a id="home" className="menu-item" href="/FinalPortfolio">
                 Home
               </a>
               <a
